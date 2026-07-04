@@ -1,11 +1,11 @@
 import 'package:fatto/exports.dart';
-import 'package:fatto/features/home/presentation/reusableWidget/Promotion_rectangle%202.dart';
-import 'package:fatto/features/home/presentation/reusableWidget/countdownTimer.dart';
-import 'package:fatto/features/home/presentation/reusableWidget/my_cards.dart';
-import 'package:fatto/features/home/presentation/reusableWidget/my_navButtom.dart';
-import 'package:fatto/features/home/presentation/reusableWidget/my_searchBar.dart';
-import '../../../config/routes/app_routes_helper.dart';
-import 'reusableWidget/Promotion_rectangle .dart';
+import '../../../../config/routes/app_routes_helper.dart';
+import '../widgets/Promotion_rectangle .dart';
+import '../widgets/Promotion_rectangle 2.dart';
+import '../widgets/countdownTimer.dart';
+import '../widgets/my_cards.dart';
+import '../widgets/my_navButtom.dart';
+import '../widgets/my_searchBar.dart';
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({super.key});

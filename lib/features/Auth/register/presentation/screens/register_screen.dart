@@ -14,8 +14,7 @@ class RegisterScreen extends StatelessWidget {
     return BlocProvider(
       create: (context) => RegisterCubit(),
       child: BlocConsumer<RegisterCubit, RegisterState>(
-        listener: (context, state) {
-        },
+        listener: (context, state) {},
         builder: (context, state) {
           var registerCubit = RegisterCubit.get(context);
           return Scaffold(
@@ -24,20 +23,22 @@ class RegisterScreen extends StatelessWidget {
                 children: [
                   44.vs,
                   Padding(
-                    padding: EdgeInsets.symmetric(
-                        horizontal: 16.w, vertical: 24.h),
+                    padding:
+                        EdgeInsets.symmetric(horizontal: 16.w, vertical: 24.h),
                     child: Column(
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
                         const CreateAccountSection(),
                         32.vs,
-                        RegisterSection(registerCubit: registerCubit,),
+                        RegisterSection(
+                          registerCubit: registerCubit,
+                        ),
                         32.vs,
                         Row(
                           children: [
                             const Expanded(
                               child: Divider(
-                                color:Color(0xffC2C2C2),
+                                color: Color(0xffC2C2C2),
                                 height: 0.5,
                               ),
                             ),
@@ -45,20 +46,23 @@ class RegisterScreen extends StatelessWidget {
                               padding: 8.ph,
                               child: Text(
                                 AppStrings.or,
-                                style: AppStyles.styleManropeRegular12.copyWith(color: AppColors.darkSlateGray),
+                                style: AppStyles.styleManropeRegular12
+                                    .copyWith(color: AppColors.darkSlateGray),
                               ),
                             ),
                             const Expanded(
                               child: Divider(
-                                color:Color(0xffC2C2C2),
+                                color: Color(0xffC2C2C2),
                                 height: 0.5,
-              
                               ),
                             ),
                           ],
                         ),
                         32.vs,
-                        SocialRegisterSection(googleFunction: () {  }, facebookFunction: () {  },),
+                        SocialRegisterSection(
+                          googleFunction: () {},
+                          facebookFunction: () {},
+                        ),
                       ],
                     ),
                   )

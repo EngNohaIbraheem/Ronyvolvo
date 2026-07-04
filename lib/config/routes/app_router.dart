@@ -1,24 +1,22 @@
 import 'package:fatto/exports.dart';
 import 'package:fatto/features/Auth/login/presentation/screens/login_screen.dart';
-import 'package:fatto/features/Auth/register/presentation/register_screen.dart';
+import 'package:fatto/features/Auth/register/presentation/screens/register_screen.dart';
 import 'package:fatto/features/cart/presentation/cart_screen.dart';
 import 'package:fatto/features/favorite/persentation/favorite_screen.dart';
 import 'package:fatto/features/my_account/presentation/my_account_screen.dart';
 import 'package:fatto/features/home_section/ui/home_section.dart';
-import 'package:fatto/features/home_section/ui/product35.dart';
-import 'package:fatto/features/order_mangement/choose_payment/presentation/screens/choose_payment_screen.dart';
-import 'package:fatto/features/order_mangement/order/presentation/orderScreens.dart';
-import 'package:fatto/features/order_mangement/order/presentation/paymentScreen.dart';
-import 'package:fatto/features/order_mangement/order_check/presentation/screens/order_check_screen.dart';
-import 'package:fatto/features/order_mangement/signin_tocheckout/presentation/screens/signin_screen.dart';
-import 'package:fatto/features/product/presentation/screens/product_screen.dart';
-import 'package:fatto/features/review/ui/review_page.dart';
-import 'package:fatto/features/reviews/presentation/reviews_screen.dart';
-import '../../features/home/presentation/homeScreen.dart';
+
+import '../../features/home/presentation/screens/homeScreen.dart';
+import '../../features/home_section/ui/product35.dart';
+import '../../features/order_mangement/order/presentation/orderScreens.dart';
+import '../../features/order_mangement/signin_tocheckout/presentation/screens/signin_screen.dart';
+import '../../features/product/presentation/screens/product_screen.dart';
 import '../../features/profile_screens/presentation/screens/AddAddressScreen.dart';
 import '../../features/profile_screens/presentation/screens/Termsandcondition.dart';
 import '../../features/profile_screens/presentation/screens/change_password_profile_screen.dart';
 import '../../features/profile_screens/presentation/screens/edit_screen_profile.dart';
+import '../../features/review/ui/review_page.dart';
+import '../../features/reviews/presentation/reviews_screen.dart';
 
 class AppRouter {
   Route generateRoute(RouteSettings settings) {
