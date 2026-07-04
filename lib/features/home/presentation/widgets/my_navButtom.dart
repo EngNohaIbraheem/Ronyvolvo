@@ -1,7 +1,7 @@
 import 'package:fatto/exports.dart';
 import 'package:fatto/features/cart/presentation/cart_screen.dart';
 import 'package:fatto/features/favorite/persentation/favorite_screen.dart';
-import 'package:fatto/features/home/presentation/homeScreen.dart';
+import 'package:fatto/features/home/presentation/screens/homeScreen.dart';
 import 'package:fatto/features/my_account/presentation/my_account_screen.dart';
 
 import '../../../profile_screens/presentation/screens/profile_screen.dart';
